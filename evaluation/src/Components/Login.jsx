@@ -38,6 +38,7 @@ const Login = () => {
         return (
             <Container>
                 <Grid>
+                    <br />
                     <form  noValidate autoComplete="off">
                         <TextField id="standard-basic" label="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
                         <br />
@@ -46,6 +47,11 @@ const Login = () => {
                         <Button variant="contained" color="secondary" className={classes.root} onClick={handleClick}>
                             Login
                         </Button>
+                        <hr />
+                        <br />
+                        use below credentials <br />
+                            useraname: eve.holt@reqres.in<br />
+                            password: cityslicka
                     </form>
                 </Grid>
                 <Grid>
